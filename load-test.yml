@@ -1,0 +1,7 @@
+stages:
+    - test
+
+run tests:
+    stage: test
+    script:
+        - ./test
